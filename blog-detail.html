@@ -1,0 +1,707 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta Data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog Detail — Adism</title>
+
+    <link rel="stylesheet" href="css/loading.css" type="text/css">
+
+    
+    <!-- Dependency Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="css/swiper.min.css" type="text/css">
+    <link rel="stylesheet" href="css/jPushMenu.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css">
+
+    <!-- Site Stylesheet -->
+    <link rel="stylesheet" href="build/css/style.min.css" type="text/css">
+
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+
+
+</head>
+
+<body id="home-version-1" class="home-version-1" data-style="default">
+
+    <!-- Start Loading page -->
+    <div class="loading">
+        <div class="loading-wrapper">
+            <div class="rec r1"></div>
+            <div class="rec r2"></div>
+            <div class="rec r3"></div>
+            <div class="rec r4"></div>
+            <div class="rec r5"></div>
+        </div>
+    </div>
+    <!-- End Loading page -->
+
+    <div id="site">
+
+
+        <!--==============================-->
+        <!--=        Site header         =-->
+        <!--==============================-->
+        <section id="dt-header">
+            <div id="top-menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="top-contact-info">
+                                <li><a href="tel:1-800244570008790"><i class="fa fa-phone"></i>1-800244570008790</a></li>
+                                <li><a href="mailto:info@example.com"><i class="fa fa-envelope"></i>info@example.com</a></li>
+                            </ul>
+                            <!-- /.top-contact -->
+                        </div>
+                        <!-- /.col-md-6 -->
+                        <div class="col-md-6">
+                            <ul class="dt-social-link">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- /.col-md-6 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /#top-menu -->
+            <div id="navigation-menu">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+
+                                <div class="menu-toggle" data-dt-toggle="menu-slide" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <!-- /.menu-toggle -->
+                                <a class="brand-logo" href="index.html">
+                                    <img src="img/main_logo.png" alt="" class="transparent-logo">
+                                    <img src="img/main_logo_two.png" alt="" class="normal-logo">
+                                </a>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                        <!-- <ul class="child-menu">
+                                            <li><a href="index.html">Home v1</a></li>
+                                            <li><a href="home-two.html">Home v2</a></li>
+                                            <li><a href="home-three.html">Home v3</a></li>
+                                        </ul> -->
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About</a>
+                                        <!-- <ul class="child-menu">
+                                            <li><a href="about.html">About v1 </a></li>
+                                            <li><a href="about-two.html">About v2</a></li>
+                                        </ul> -->
+                                    </li>
+                                    <li>
+                                        <a href="service.html">Service</a>
+                                        <!-- <ul class="child-menu">
+                                            <li><a href="service.html">Service v1 </a></li>
+                                            <li><a href="service-two.html">Service v2</a></li>
+                                        </ul> -->
+                                    </li>
+                                    <!-- <li><a href="insurance.html">Insurance</a></li> -->
+                                    <li>
+                                        <a href="blog.html">Blog</a>
+                                        <!-- <ul class="child-menu">
+                                            <li><a href="blog.html">Blog v1</a></li>
+                                            <li><a href="blog-two.html">Blog v2</a></li>
+                                            <li><a href="blog-single.html">Blog Single</a></li>
+                                        </ul> -->
+                                    </li>
+                                    <li>
+                                        <a href="team.html">Team</a>
+                                        <!-- <ul class="child-menu">
+                                            <li><a href="expert-team.html">Expert Team</a></li>
+                                            <li><a href="team-details.html">Team Details</a></li>
+                                        </ul> -->
+                                    </li>
+                                    <li class="border-right"><a href="contact.html">Contact</a></li>
+                                    <li>
+                                        <div class="form">
+                                            <form class="form-search ngen-search-form" action="#" method="get">
+                                                <input type="text" name="q" id="search-input" class="form-search-input" placeholder="Search">
+                                                <span id="search-trigger" class="form-search-submit"><i class="fa fa-search"></i></span>
+                                            </form>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </nav>
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /#navigation-menu -->
+        </section>
+        <!-- /#site-example-section -->
+
+        <!--================================-->
+        <!--=        Mobile Header         =-->
+        <!--================================-->
+        <div id="mobile-header">
+            <a class="main-logo" href="index.html"><img src="img/main_logo.png" alt=""></a>
+            <div class="menu-container">
+                <div class="menu-toggle toggle-menu menu-right push-body">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <!-- /.menu-toggle -->
+            </div>
+            <!-- /#menu-container -->
+        </div>
+        <!-- /#mobile-header -->
+        <div id="mobile-wrapper" class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
+            <div class="mobile-menu-container">
+
+                <div id="mobile_menu_search">
+                    <div id="search">
+                        <form method="get" action="#">
+                            <input type="text" name="s" placeholder="Search" class="search" value="">
+                            <button type="submit" id="searchsubmit" value=""><i class="fa fa-search"></i></button>
+                        </form>
+
+                    </div>
+                </div>
+
+                <hr>
+
+                <nav id="accordian">
+                    <ul class="accordion-menu">
+                        <li>
+                            <a href="index.html" class="single-link"> Home
+                        <!-- <i class="fa fa-chevron-down" aria-hidden="true"></i> -->
+                           </a>
+                            <!-- <ul class="submenuItems">
+                                <li><a href="index.html">Home v1</a></li>
+                                <li><a href="home-two.html">Home v2</a></li>
+                                <li><a href="home-three.html">Home v3</a></li>
+                            </ul> -->
+                        </li>
+                        <li>
+                            <a href="about.html" class="single-link">About  </a>
+                        </li>
+                        <li>
+                            <a href="service.html" class="single-link"> Service</a>
+                        </li>
+                        <li>
+                            <a href="blog.html" class="single-link"> Blog
+                    </a>
+                        </li>
+                        <li>
+                            <a href="team.html" class="single-link"> Team
+                    </a>
+                        </li>
+                        <li class="single-link"><a href="contact.html">Contact</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <!-- /.menu-container -->
+        </div>
+        <!-- /#mobile-wrapper -->
+
+        <!--=========================-->
+        <!--=        Banner         =-->
+        <!--=========================-->
+        <section class="page-banner" data-bg-image="img/news_bg-two.jpg">
+            <div class="container">
+                <div class="banner-title">
+                    <h1>News List</h1>
+                    <p>Home / <span>News</span></p>
+                </div>
+                <!-- /.banner-title -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.service-page -->
+
+        <!--===============================-->
+        <!--=        Blog Content         =-->
+        <!--===============================-->
+        <section class="blog-three">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="blog-post">
+                            <div class="blog-thumb">
+                                <img src="img/news-thumb_19.jpg" alt="Blog Thumbs">
+                            </div>
+                            <!-- /.blog-thumb -->
+                            <a href="#" class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i>20 - April - 2016</a>
+                            <h3>SPITZER INVESTIONS THOUGHT</h3>
+                        </div>
+                        <!-- /.blog-thumb -->
+                        <div class="blog-content">
+                            <ul class="news-details">
+                                <li><a href="#"><i class="fa fa-tag"></i>Home Insurance</a></li>
+                                <li><a href="#"><i class="fa fa-comments"></i>10 comments</a></li>
+                                <li><a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i>Share</a></li>
+                                <li>
+                                    <ul class="dt-social-link">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                Interactively coordinate fully tested materials via parallel e-markets. Rapidiously supply parallel alignments before real-time bandwidth. Globally coordinate interactive alignments rather than 24/365 e-services. Authoritatively visualize effective products
+                                for accurate niches. Objectively productivate unique catalysts for change vis-a-vis one-to-one deliverables.Holisticly supply client-based benefits rather than 24/7 technologies. Phosfluorescently implement top-line technologies
+                                before visionary sources. Phosfluorescently benchmark low-risk high-yield convergence after state of the art models. Continually scale open-source relationships after vertical action items. Dynamically network prospective
+                                quality vectors after user-centric e-commerce.Progressively negotiate B2C systems before granular results. Efficiently target synergistic convergence whereas maintainable vortals. Professionally aggregate superior expertise
+                                and process-centric bandwidth. Proactively provide access to 24/365 web-readiness with market positioning collaboration and idea-sharing. Appropriately revolutionize 24/7 methods of empowerment and principle-centered quality
+                                vectors.
+                            </p>
+                            <p>
+                                Objectively orchestrate user friendly alignments after pandemic opportunities. Energistically extend transparent outsourcing for granular solutions. Enthusiastically fashion equity invested methodologies and leading-edge value. Compellingly engage B2B
+                                technologies with premium niches. Dramatically create proactive processes vis-a-vis pandemic partnerships.Competently formulate fully researched expertise and equity invested customer service. Collaboratively orchestrate
+                                cross-media mindshare for future-proof e-services. Holisticly fashion wireless web services through economically sound alignments. Energistically grow exceptional services with e-business services. Interactively productize
+                                leveraged ideas vis-a-vis leveraged growth strategies.
+                            </p>
+                        </div>
+                        <!-- /.blog-content -->
+                        <div class="admin">
+                            <ul class="media-list">
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object" src="img/news-thumb_21.jpg" alt="admin">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Dylan Meringue</h4>
+                                        <p>
+                                            Quickly repurpose fully tested deliverables for strategic processes. Compellingly customize integrated quality vectors vis-a-vis ethical supply chains. Seamlessly communicate cutting-edge potentialities vis-a-vis scalable human capital. Energistically
+                                            impact economically sound infrastructures and plug-and-play meta-services.
+                                        </p>
+                                        <ul class="dt-social-link">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- /.admin -->
+                        <div class="comments">
+                            <h3>Comments 3</h3>
+
+                            <ul class="media-list">
+                                <li class="media">
+                                    <div class="media-inner">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="img/news-thumb_20.jpg" alt="User">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Hanson Deck</h4>
+                                            <p>
+                                                Uniquely formulate empowered products vis-a-vis customized relationships. Holisticly initiate 24/365 markets with bleeding-edge core competencies. Progressively recaptiualize dynamic scenarios before cooperative strategic theme areas.
+                                            </p>
+                                            <ul class="comment-date">
+                                                <li><a href="#">16 Feb 2016</a></li>
+                                                <li><a href="#"><i class="fa fa-reply" aria-hidden="true"></i> Reply</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /.media-inner -->
+                                    <ul class="media-list-child">
+                                        <li class="media">
+                                            <div class="media-inner">
+                                                <div class="media-left">
+                                                    <a href="#">
+                                                        <img class="media-object" src="img/news-thumb_21.jpg" alt="User">
+                                                    </a>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Hanson Deck</h4>
+                                                    <p>
+                                                        Uniquely formulate empowered products vis-a-vis customized relationships. Holisticly initiate 24/365 markets with bleeding-edge core competencies. Progressively recaptiualize dynamic scenarios before cooperative strategic theme areas.
+                                                    </p>
+                                                    <ul class="comment-date">
+                                                        <li><a href="#">16 Feb 2016</a></li>
+                                                        <li><a href="#"><i class="fa fa-reply" aria-hidden="true"></i> Reply</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- /.blog-inner -->
+
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="media">
+                                    <div class="media-inner">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="img/news-thumb_23.jpg" alt="User">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Hanson Deck</h4>
+                                            <p>
+                                                Uniquely formulate empowered products vis-a-vis customized relationships. Holisticly initiate 24/365 markets with bleeding-edge core competencies. Progressively recaptiualize dynamic scenarios before cooperative strategic theme areas.
+                                            </p>
+                                            <ul class="comment-date">
+                                                <li><a href="#">16 Feb 2016</a></li>
+                                                <li><a href="#"><i class="fa fa-reply" aria-hidden="true"></i> Reply</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /.media-inner -->
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.comment -->
+                        <div class="user-comments">
+                            <h3>Post Your Comments</h3>
+                            <form action="#">
+                                <p class="full">
+                                    <label for="massage">Massage</label>
+                                    <textarea name="massage" id="massage" class="dt-massage"></textarea>
+                                </p>
+
+                                <p class="half-input">
+                                    <label for="first-name">First name</label>
+                                    <input type="text" id="first-name" class="call-back-input" name="first-name">
+                                </p>
+                                <p class="half-input">
+                                    <label for="last-name">Last name</label>
+                                    <input type="text" id="last-name" class="call-back-input" name="last-name">
+                                </p>
+                            </form>
+                            <a href="#" class="dt-btn btn-skew">Post Comments</a>
+                        </div>
+                        <!-- /.user-comments -->
+                    </div>
+                    <!-- /.col-md-9 -->
+                    <div class="col-md-3">
+                        <aside id="search-2" class="widget widget_dt_search">
+                            <form role="search" method="get" class="search-form" action="http://google.com">
+                                <label>
+    <span class="search-icon"><i class="fa fa-search"></i></span>
+    <input type="search" class="search-field" placeholder="Search …" value="" name="s">
+  </label>
+                                <input type="submit" class="search-submit" value="Search">
+                            </form>
+                        </aside>
+                        <aside id="nav_menu-2" class="widget widget_nav_menu">
+                            <h3 class="widget-title">Categories</h3>
+
+                            <ul class="dt_custom_menu">
+                                <li><a href="#">Funding Loan</a></li>
+                                <li><a href="#">Finance</a></li>
+                                <li><a href="#">Investment</a></li>
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Financing Loan</a></li>
+                            </ul>
+
+                        </aside>
+                        <section id="recent-posts-2" class="widget widget_recent_entries">
+                            <h2 class="widget-title">Recent Posts</h2>
+                            <div class="resent-post">
+                                <div class="post-thumbs">
+                                    <a href="#">
+                                        <img class="media-object" src="img/post_1.jpg" alt="01">
+                                    </a>
+                                </div>
+                                <div class="post-content">
+                                    <h5>
+                                        <a href="#">BEATS ALL YOU’VE EVER SAW BEEN IN TROUBLE</a>
+                                    </h5>
+                                    <ul class="post-meta">
+                                        <li><a href="#">16 Feb 2016</a></li>
+                                        <li><a href="#"><i class="fa fa-comments"></i>22</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /.resent-post -->
+
+                            <div class="resent-post">
+                                <div class="post-thumbs">
+                                    <a href="#">
+                                        <img class="media-object" src="img/post_2.jpg" alt="01">
+                                    </a>
+                                </div>
+                                <div class="post-content">
+                                    <h5>
+                                        <a href="#">NOW THE WORLD DON’T TO JUST ONE DRUM</a>
+                                    </h5>
+                                    <ul class="post-meta">
+                                        <li><a href="#">16 Feb 2016</a></li>
+                                        <li><a href="#"><i class="fa fa-comments"></i>22</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /.resent-post -->
+
+                            <div class="resent-post">
+                                <div class="post-thumbs">
+                                    <a href="#">
+                                        <img class="media-object" src="img/post_3.jpg" alt="01">
+                                    </a>
+                                </div>
+                                <div class="post-content">
+                                    <h5>
+                                        <a href="#">LOREM IPSUM DOLOR AMET ELIT SEDO</a>
+                                    </h5>
+                                    <ul class="post-meta">
+                                        <li><a href="#">16 Feb 2016</a></li>
+                                        <li><a href="#"><i class="fa fa-comments"></i>22</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /.resent-post -->
+
+                            <div class="resent-post">
+                                <div class="post-thumbs">
+                                    <a href="#">
+                                        <img class="media-object" src="img/post_4.jpg" alt="01">
+                                    </a>
+                                </div>
+                                <div class="post-content">
+                                    <h5>
+                                        <a href="#">LOREM IPSUM DOLOR AMET ELIT SEDO</a>
+                                    </h5>
+                                    <ul class="post-meta">
+                                        <li><a href="#">16 Feb 2016</a></li>
+                                        <li><a href="#"><i class="fa fa-comments"></i>22</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /.resent-post -->
+                        </section>
+
+                        <aside id="archives" class="widget widget_archive">
+                            <h1 class="widget-title">Archives</h1>
+                            <ul>
+                                <li>
+                                    <a href="#">April <span>2015</span></a>
+                                    <p>(10)</p>
+                                </li>
+                                <li>
+                                    <a href="#">March <span>2015</span></a>
+                                    <p>(10)</p>
+                                </li>
+                                <li>
+                                    <a href="#">February <span>2015</span></a>
+                                    <p>(10)</p>
+                                </li>
+                                <li>
+                                    <a href="#">January <span>2015</span></a>
+                                    <p>(10)</p>
+                                </li>
+                            </ul>
+                        </aside>
+                        <div id="wp-default-category-widget" class="widget widget_tag">
+                            <h2 class="widget-title">Popular Tags</h2>
+                            <div class="dt-tag">
+                                <a href="#">Design</a>
+                                <a href="#">Business</a>
+                                <a href="#">Wordpress</a>
+                                <a href="#">Photo</a>
+                                <a href="#">Branding</a>
+                                <a href="#">News</a>
+                                <a href="#">Trends</a>
+                                <a href="#">Cws</a>
+                                <a href="#">Education</a>
+                            </div>
+                        </div>
+                        <!-- /.widget -->
+                    </div>
+                    <!-- /.col-md-3 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.blog-three -->
+
+        <!--=========================-->
+        <!--=        Footer         =-->
+        <!--=========================-->
+        <div id="footter">
+            <div class="footer-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="dt-address">
+                                <div class="brand-logo">
+                                    <img src="img/footer_logo.png" alt="">
+                                </div>
+                                <!-- /.brand-logo -->
+                                <p>
+                                    Intrinsicly promote standards compliant convergence before reliable vortals.
+                                </p>
+                                <ul class="address">
+                                    <li>
+                                        <i class="fa fa-map-marker"></i> Multiapp, 44 Second Floor, Design Street,Melbourne-27
+                                    </li>
+                                    <li><a href="tel:1800244570008790"><i class="fa fa-phone"></i>1-800 24 457 000 8790</a></li>
+                                    <li><a href="mailto:info@example.com"><i class="fa fa-envelope"></i>info@example.com</a></li>
+                                </ul>
+                                <ul class="dt-social-link">
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- /.dt-address -->
+                        </div>
+                        <!-- /.col-md-3 -->
+                        <div class="col-md-4">
+                            <h3 class="footer-title">Our Services</h3>
+                            <!-- /.footer-title -->
+                            <ul class="dt-service-menu">
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Aenean Tellus</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Fermentum Ultricies</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Tellus Aenscing</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Condimentum Porta</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Condimentum Porta</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Purus Porta Cursus</a></li>
+                            </ul>
+                            <!-- /.dt-service-menu -->
+                        </div>
+                        <!-- /.col-md-3 -->
+                        <div class="col-md-4">
+                            <h3 class="footer-title">Latest News</h3>
+                            <div class="footer-news">
+                                <div class="news-item clearfix">
+                                    <div class="news-thumb">
+                                        <a href="#"><img src="img/footer_1.jpg" alt=""></a>
+                                    </div>
+
+                                    <div class="news-content">
+                                        <a href="#">
+                                            <p>
+                                                Quickly fashion user friendly information through inexpensive alignments.
+                                            </p>
+                                            <span>26 April 2016</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- /.news-item -->
+
+                                <div class="news-item clearfix">
+                                    <div class="news-thumb">
+                                        <a href="#"><img src="img/footer_2.jpg" alt=""></a>
+                                    </div>
+
+                                    <div class="news-content">
+                                        <a href="#">
+                                            <p>
+                                                Quickly fashion user friendly information through inexpensive alignments.
+                                            </p>
+                                            <span>26 April 2016</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- /.news-item -->
+
+                                <div class="news-item clearfix">
+                                    <div class="news-thumb">
+                                        <a href="#"><img src="img/footer_3.jpg" alt=""></a>
+                                    </div>
+
+                                    <div class="news-content">
+                                        <a href="#">
+                                            <p>
+                                                Quickly fashion user friendly information through inexpensive alignments.
+                                            </p>
+                                            <span>26 April 2016</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- /.news-item -->
+
+                            </div>
+                            <!-- /.footer-news -->
+                        </div>
+                        <!-- /.col-md-4 -->
+                        <!-- <div class="col-md-2">
+                            <h3 class="footer-title">Quick Links</h3>
+                            <ul class="footer-menu">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">Insurance</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div> -->
+                        <!-- /.col-md-2 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.footer-wrapper -->
+            <!-- <div class="copyright-bar">
+                <div class="container">
+                    <p>Corpo - Copyright 2016. Designed by <a href="http://www.decentthemes.com/">Decent Themes</a></p>
+                </div>
+            </div> -->
+        </div>
+        <!-- /#footter -->
+
+
+    </div>
+    <!-- /#site -->
+    <a href="#dt-header" class="return-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Dependency Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/countUp.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAssaWBjq7xp_L88KSNA6X7wVA-HxF9rtM"></script> -->
+    <script src="js/gmap3.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+
+    <!-- Site Scripts -->
+
+    <script src="build/js/app.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>

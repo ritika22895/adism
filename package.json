@@ -1,0 +1,47 @@
+{
+  "name": "AWS-package-file",
+  "version": "0.0.1",
+  "description": "AWS jQuery Library front end demo",
+  "scripts": {
+    "start": "gulp build && concurrently \"gulp dev\" \"npm run lite-server\" ",
+    "build": "gulp build",
+    "lite-server": "lite-server -c lite-server.config.js",
+    "lint": "gulp lint"
+  },
+  "license": "private",
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "concurrently": "^3.4.0",
+    "del": "^2.2.2",
+    "eslint": "^4.19.1",
+    "gulp": "^3.9.1",
+    "gulp-add": "0.0.2",
+    "gulp-babel": "^7.0.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-bump": "^2.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-dom": "^0.9.17",
+    "gulp-eslint": "^4.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.5.1",
+    "gulp-tap": "^1.0.1",
+    "gulp-uglify": "^2.1.2",
+    "lite-server": "^2.2.2",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "gulp-scss-lint": "^0.7.1",
+    "jquery": "^3.3.1",
+    "jquery-match-height": "0.7.2",
+    "jquery-mousewheel": "3.1.13",
+    "jsdom": "11.12.0",
+    "popper.js": "^1.14.3",
+    "select2": "4.0.6-rc.1",
+    "tooltip-js": "3.0.0"
+  }
+}
